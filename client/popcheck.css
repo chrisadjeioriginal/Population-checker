@@ -13,6 +13,7 @@ body{
     color: white;
     font-family: monospace;
     margin-bottom: 80px;
+   
 
 }
 
@@ -51,18 +52,60 @@ body{
 
 }
 
+#browse-search-parent{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    /* background-color: red; */
+}
+
+
+
 #search-area{
     position: relative;
     background-color:  rgba(169, 203, 255, 0.108);
     width: 600px;
     height: 60px;
-    margin-top: 20px;
     font-size: 30px;
     font-family: monospace;
     font-weight:bolder;
     opacity: 0.4;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
 
 }
+
+
+#browse-button{
+
+    position: absolute;
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    font-size:15px;
+    font-family: monospace;
+    font-weight:bolder;
+    left:620px;
+    
+
+
+}
+
+
+
+#browse-button:hover{
+
+    cursor: pointer;
+    
+
+
+}
+
 
 #button{
 
@@ -82,3 +125,5 @@ body{
 #button:hover{
     cursor: pointer;
 }
+
+

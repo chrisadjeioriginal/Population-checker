@@ -6,13 +6,17 @@
     <title>Document</title>
     <link rel="stylesheet" href="popcheck.css" />
   </head>
-  <body>
+  <body id="body">
     <div id="parent">
       <div id="title-container"><h1>POPULATION CHECKER</h1></div>
       <div id="image-holder"></div>
       <div id="population-holder"></div>
-      <input id="search-area"></input>
+      <div id="browse-search-parent">
+        <input id="search-area" placeholder="Enter ISO COUNTRY CODE"></input>
+        <button id="browse-button">BROWSE</button>
+      </div>
       <button id="button">SEARCH</button>
+      
     </div>
     
     <script src="popcheck.js"></script>
