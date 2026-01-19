@@ -4,7 +4,7 @@ const path = require("path");
 require("dotenv").config();
 
 const app = express();
-const url = path.join(__dirname, "../client");
+const url = path.join(__dirname, "../");
 app.use(express.static(url));
 
 app.get("/", (req, res) => {

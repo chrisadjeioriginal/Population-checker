@@ -152,6 +152,9 @@ searchButton.addEventListener("click", async () => {
     image.style.borderRadius = "30px";
     image.style.position = "relative";
 
+    if (populationHolder.style.backgroundColor == "") {
+      populationHolder.style.backgroundColor = " rgba(227, 237, 252, 0.639)";
+    }
     populationHolder.textContent = newResult;
     div.appendChild(image);
     imageHolder.appendChild(div);
